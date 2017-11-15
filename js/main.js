@@ -21,6 +21,9 @@ class BdayPerson{
             date.innerHTML = element.bdate;
 
             column.classList.add("col-sm-6");
+            column.classList.add("col-xs-12");
+            column.classList.add("col-md-4");
+            column.classList.add("col-lg-4");         
 
             thumb.classList.add("thumbnail");
 
